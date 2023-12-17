@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/01f9e55039.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/logo.jpg" class="logo">
+                
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-solid fa-xmark" onclick="closemenu()"></i></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Ui/Ux Designer & Web Developer</p>
+                <h1>Hi I'm <span>Vincent</span> based <br> in Lagos, Nigeria.</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/about pic vixy.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About me</h1>
+                          <p class="subheader">My name is Vincent Okutalukwe. I am a Ui/Ux Designer and web developer with over 1 year of experience. Over the past 1 year, I have interned in several companies where i honed my skills to impact in these companies.
+                             I have a good knowledge of front end web development which includes programming languages like HTML, CSS and javascript and Python. Asides that, I am also learning how to build websites with webflow. 
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web App Interfaces</li>
+                                <li><span>Web Development</span><br>Building Aesthetic Websites</li>
+                                <li><span>App Development</span><br>Designing IOS/Android Apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>Dec 2021-Current</span><br>Software developer Intern at Davecy Info Tech</li>
+                                <li><span>Jan 2020- December 2020</span><br>Front End Developer Intern at New Horizons</li>
+                                <li><span>Aug 2019- February 2020</span><br>Web develpment Intern at NIIT</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>Feb 2020</span><br>Web Development Certification at NIIT Lagos</li>
+                                <li><span>Nov 2022</span><br>Data Analytics Certification at Google</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I design and build aesthetic and visually appealing websites.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2> Ui/Ux Design</h2>
+                    <p>I design user centric and aesthetically pleasing web and mobile apps.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>I design android and IOS applications that are visually appealing and easy to navigate. </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/MILANO.jpg">
+                    <div class="layer">
+                        <h3>Milano Signatures</h3>
+                        <p>Miano signatures is a shortlet apartment that enables individuas book any apartment of their choice
+                        </p>
+                        <div class="mybuttons">
+                        <a href="https://thejustprojects.com/"><button class="mybutton">View Website</button></a>
+                        <a href="https://www.notion.so/kosiportfolio/milano-df7d7afed63b4963a7ffb205b89b4098?pvs=4"><button class="mybuttonss">View Case Study</button></a>
+                    </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/Kosy work 2.png">
+                    <div class="layer">
+                        <h3>Nike Art Gallery</h3>
+                        <p>Nike Art Gallery is a Website that enables art lovers 
+                            order any artwork of their choice from the comfort of their homes.
+                        </p>
+                        <div class="mybuttons">
+                            <a href="https://www.figma.com/proto/LnjZ4RGu8BnUve8lyCJGEF/Nike-art-gallery?page-id=5%3A4&node-id=71-67&starting-point-node-id=71%3A67&scaling=scale-down"><button class="mybutton">View Prototype </button></a>
+                            <a href="https://www.notion.so/Nike-Art-Gallery-c7dac11c11e9410eb26e56f1ba583acf?pvs=4"><button class="mybuttonss">View Case study</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/Kosy work 3.png">
+                    <div class="layer">
+                        <h3>Money wise</h3>
+                        <p>Money wise is a savings app that enables users save money and even invest money with interest. 
+                        </p>
+                        <div class="mybuttons">
+                            <a href="https://www.figma.com/proto/M5DtDzeW04yxjW8Q7UJ56w/Money-Wise?page-id=0%3A1&node-id=317-939&viewport=494%2C42%2C0.04&scaling=scale-down&starting-point-node-id=569%3A1477"><button class="mybutton">View Prototype </button></a>
+                            <a href="https://www.notion.so/Money-Wise-c38a23fcecc34f6f880c3cb27220eb4c?pvs=4"><button class="mybuttonss">View Case study</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>okutalukwee@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>08103080026</p>
+                <a href="https://drive.google.com/file/d/1_knFa-dpB4dXUt88pQghxCe9GAbEYpvw/view?usp=sharing" class="btn">Download CV</a>
+            </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+        <p> 2023 Copyright <i class="fa-regular fa-copyright"></i> Developed by Okutalukwe Vincent. All rights reserved.</p>
+    </div>
+    </div>
+    
+    <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");    
+    }
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu")
+
+        function openmenu(){
+            sidemenu.style.right = "0"
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-250px"
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwvcrr7SIgUE3IxVyaWriagxGR5jDoi9chAJXUgDfJ0xdWz4r84YPUBGcgI_xg7Vn1k/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully!"
+            setTimeout(function(){
+                msg.innerHTML =  ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
